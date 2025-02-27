@@ -26,7 +26,9 @@ const studentstorage = multer.diskStorage({
       cb(null ,newname)
     }
   })
+  // const studentupload = multer({ storage: studentstorage })
   const studentupload = multer({ storage: studentstorage })
+
 
 
 // companyImage multer
