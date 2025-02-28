@@ -11,7 +11,9 @@ const contactController=require("../server/contact/contactController")
 
 //require multer
 const multer=require("multer")
+// const { adminDash } = require("../dashboard/adminDashboard")
 const { adminDash } = require("../dashboard/adminDashboard")
+
 
 
 // studentImage multer
